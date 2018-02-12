@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C32AE4D548A54C03D3C1B41 /* libPods-steemthink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C7DCE5EF04ACD49FA52882 /* libPods-steemthink.a */; };
 		6291B0D520317AF60061FDF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6291B0D420317AF60061FDF8 /* AppDelegate.m */; };
 		6291B0D820317AF60061FDF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6291B0D720317AF60061FDF8 /* ViewController.m */; };
 		6291B0DB20317AF60061FDF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6291B0D920317AF60061FDF8 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12C7DCE5EF04ACD49FA52882 /* libPods-steemthink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-steemthink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6291B0D020317AF60061FDF8 /* steemthink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = steemthink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6291B0D320317AF60061FDF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6291B0D420317AF60061FDF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		6291B0F320317AF60061FDF8 /* steemthinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = steemthinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6291B0F720317AF60061FDF8 /* steemthinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = steemthinkUITests.m; sourceTree = "<group>"; };
 		6291B0F920317AF60061FDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9B428FB130E2C92C39E141 /* Pods-steemthink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-steemthink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-steemthink/Pods-steemthink.debug.xcconfig"; sourceTree = "<group>"; };
+		F7D2591AD56FDA89C56C403C /* Pods-steemthink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-steemthink.release.xcconfig"; path = "Pods/Target Support Files/Pods-steemthink/Pods-steemthink.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C32AE4D548A54C03D3C1B41 /* libPods-steemthink.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				6291B0EB20317AF60061FDF8 /* steemthinkTests */,
 				6291B0F620317AF60061FDF8 /* steemthinkUITests */,
 				6291B0D120317AF60061FDF8 /* Products */,
+				9E487780A119497BD9027A3C /* Pods */,
+				81DB9557CBA8004D501FE3AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +139,23 @@
 			path = steemthinkUITests;
 			sourceTree = "<group>";
 		};
+		81DB9557CBA8004D501FE3AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12C7DCE5EF04ACD49FA52882 /* libPods-steemthink.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E487780A119497BD9027A3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB9B428FB130E2C92C39E141 /* Pods-steemthink.debug.xcconfig */,
+				F7D2591AD56FDA89C56C403C /* Pods-steemthink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6291B0FC20317AF60061FDF8 /* Build configuration list for PBXNativeTarget "steemthink" */;
 			buildPhases = (
+				B2AFE31B5A652C1B172E0DED /* [CP] Check Pods Manifest.lock */,
 				6291B0CC20317AF60061FDF8 /* Sources */,
 				6291B0CD20317AF60061FDF8 /* Frameworks */,
 				6291B0CE20317AF60061FDF8 /* Resources */,
+				096683A72DAB933AC49A06B3 /* [CP] Embed Pods Frameworks */,
+				CAF8322E37E8C578AE94B073 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +286,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		096683A72DAB933AC49A06B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-steemthink/Pods-steemthink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2AFE31B5A652C1B172E0DED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-steemthink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAF8322E37E8C578AE94B073 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-steemthink/Pods-steemthink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6291B0CC20317AF60061FDF8 /* Sources */ = {
@@ -428,6 +506,7 @@
 		};
 		6291B0FD20317AF60061FDF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9B428FB130E2C92C39E141 /* Pods-steemthink.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +521,7 @@
 		};
 		6291B0FE20317AF60061FDF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D2591AD56FDA89C56C403C /* Pods-steemthink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
