@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6291B0D520317AF60061FDF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6291B0D420317AF60061FDF8 /* AppDelegate.m */; };
+		6291B0D820317AF60061FDF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6291B0D720317AF60061FDF8 /* ViewController.m */; };
+		6291B0DB20317AF60061FDF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6291B0D920317AF60061FDF8 /* Main.storyboard */; };
+		6291B0DD20317AF60061FDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6291B0DC20317AF60061FDF8 /* Assets.xcassets */; };
+		6291B0E020317AF60061FDF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6291B0DE20317AF60061FDF8 /* LaunchScreen.storyboard */; };
+		6291B0E320317AF60061FDF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6291B0E220317AF60061FDF8 /* main.m */; };
+		6291B0ED20317AF60061FDF8 /* steemthinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6291B0EC20317AF60061FDF8 /* steemthinkTests.m */; };
+		6291B0F820317AF60061FDF8 /* steemthinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6291B0F720317AF60061FDF8 /* steemthinkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6291B0E920317AF60061FDF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6291B0C820317AF60061FDF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6291B0CF20317AF60061FDF8;
+			remoteInfo = steemthink;
+		};
+		6291B0F420317AF60061FDF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6291B0C820317AF60061FDF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6291B0CF20317AF60061FDF8;
+			remoteInfo = steemthink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6291B0D020317AF60061FDF8 /* steemthink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = steemthink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6291B0D320317AF60061FDF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6291B0D420317AF60061FDF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6291B0D620317AF60061FDF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6291B0D720317AF60061FDF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6291B0DA20317AF60061FDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6291B0DC20317AF60061FDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6291B0DF20317AF60061FDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6291B0E120317AF60061FDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6291B0E220317AF60061FDF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6291B0E820317AF60061FDF8 /* steemthinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = steemthinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6291B0EC20317AF60061FDF8 /* steemthinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = steemthinkTests.m; sourceTree = "<group>"; };
+		6291B0EE20317AF60061FDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6291B0F320317AF60061FDF8 /* steemthinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = steemthinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6291B0F720317AF60061FDF8 /* steemthinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = steemthinkUITests.m; sourceTree = "<group>"; };
+		6291B0F920317AF60061FDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6291B0CD20317AF60061FDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B0E520317AF60061FDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B0F020317AF60061FDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6291B0C720317AF60061FDF8 = {
+			isa = PBXGroup;
+			children = (
+				6291B0D220317AF60061FDF8 /* steemthink */,
+				6291B0EB20317AF60061FDF8 /* steemthinkTests */,
+				6291B0F620317AF60061FDF8 /* steemthinkUITests */,
+				6291B0D120317AF60061FDF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6291B0D120317AF60061FDF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6291B0D020317AF60061FDF8 /* steemthink.app */,
+				6291B0E820317AF60061FDF8 /* steemthinkTests.xctest */,
+				6291B0F320317AF60061FDF8 /* steemthinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6291B0D220317AF60061FDF8 /* steemthink */ = {
+			isa = PBXGroup;
+			children = (
+				6291B0D320317AF60061FDF8 /* AppDelegate.h */,
+				6291B0D420317AF60061FDF8 /* AppDelegate.m */,
+				6291B0D620317AF60061FDF8 /* ViewController.h */,
+				6291B0D720317AF60061FDF8 /* ViewController.m */,
+				6291B0D920317AF60061FDF8 /* Main.storyboard */,
+				6291B0DC20317AF60061FDF8 /* Assets.xcassets */,
+				6291B0DE20317AF60061FDF8 /* LaunchScreen.storyboard */,
+				6291B0E120317AF60061FDF8 /* Info.plist */,
+				6291B0E220317AF60061FDF8 /* main.m */,
+			);
+			path = steemthink;
+			sourceTree = "<group>";
+		};
+		6291B0EB20317AF60061FDF8 /* steemthinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				6291B0EC20317AF60061FDF8 /* steemthinkTests.m */,
+				6291B0EE20317AF60061FDF8 /* Info.plist */,
+			);
+			path = steemthinkTests;
+			sourceTree = "<group>";
+		};
+		6291B0F620317AF60061FDF8 /* steemthinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6291B0F720317AF60061FDF8 /* steemthinkUITests.m */,
+				6291B0F920317AF60061FDF8 /* Info.plist */,
+			);
+			path = steemthinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6291B0CF20317AF60061FDF8 /* steemthink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6291B0FC20317AF60061FDF8 /* Build configuration list for PBXNativeTarget "steemthink" */;
+			buildPhases = (
+				6291B0CC20317AF60061FDF8 /* Sources */,
+				6291B0CD20317AF60061FDF8 /* Frameworks */,
+				6291B0CE20317AF60061FDF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = steemthink;
+			productName = steemthink;
+			productReference = 6291B0D020317AF60061FDF8 /* steemthink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6291B0E720317AF60061FDF8 /* steemthinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6291B0FF20317AF60061FDF8 /* Build configuration list for PBXNativeTarget "steemthinkTests" */;
+			buildPhases = (
+				6291B0E420317AF60061FDF8 /* Sources */,
+				6291B0E520317AF60061FDF8 /* Frameworks */,
+				6291B0E620317AF60061FDF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6291B0EA20317AF60061FDF8 /* PBXTargetDependency */,
+			);
+			name = steemthinkTests;
+			productName = steemthinkTests;
+			productReference = 6291B0E820317AF60061FDF8 /* steemthinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6291B0F220317AF60061FDF8 /* steemthinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6291B10220317AF60061FDF8 /* Build configuration list for PBXNativeTarget "steemthinkUITests" */;
+			buildPhases = (
+				6291B0EF20317AF60061FDF8 /* Sources */,
+				6291B0F020317AF60061FDF8 /* Frameworks */,
+				6291B0F120317AF60061FDF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6291B0F520317AF60061FDF8 /* PBXTargetDependency */,
+			);
+			name = steemthinkUITests;
+			productName = steemthinkUITests;
+			productReference = 6291B0F320317AF60061FDF8 /* steemthinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6291B0C820317AF60061FDF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zijinph;
+				TargetAttributes = {
+					6291B0CF20317AF60061FDF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6291B0E720317AF60061FDF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6291B0CF20317AF60061FDF8;
+					};
+					6291B0F220317AF60061FDF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6291B0CF20317AF60061FDF8;
+					};
+				};
+			};
+			buildConfigurationList = 6291B0CB20317AF60061FDF8 /* Build configuration list for PBXProject "steemthink" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6291B0C720317AF60061FDF8;
+			productRefGroup = 6291B0D120317AF60061FDF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6291B0CF20317AF60061FDF8 /* steemthink */,
+				6291B0E720317AF60061FDF8 /* steemthinkTests */,
+				6291B0F220317AF60061FDF8 /* steemthinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6291B0CE20317AF60061FDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291B0E020317AF60061FDF8 /* LaunchScreen.storyboard in Resources */,
+				6291B0DD20317AF60061FDF8 /* Assets.xcassets in Resources */,
+				6291B0DB20317AF60061FDF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B0E620317AF60061FDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B0F120317AF60061FDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6291B0CC20317AF60061FDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291B0D820317AF60061FDF8 /* ViewController.m in Sources */,
+				6291B0E320317AF60061FDF8 /* main.m in Sources */,
+				6291B0D520317AF60061FDF8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B0E420317AF60061FDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291B0ED20317AF60061FDF8 /* steemthinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B0EF20317AF60061FDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291B0F820317AF60061FDF8 /* steemthinkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6291B0EA20317AF60061FDF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6291B0CF20317AF60061FDF8 /* steemthink */;
+			targetProxy = 6291B0E920317AF60061FDF8 /* PBXContainerItemProxy */;
+		};
+		6291B0F520317AF60061FDF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6291B0CF20317AF60061FDF8 /* steemthink */;
+			targetProxy = 6291B0F420317AF60061FDF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6291B0D920317AF60061FDF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6291B0DA20317AF60061FDF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6291B0DE20317AF60061FDF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6291B0DF20317AF60061FDF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6291B0FA20317AF60061FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6291B0FB20317AF60061FDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6291B0FD20317AF60061FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = steemthink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.steemthink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6291B0FE20317AF60061FDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = steemthink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.steemthink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6291B10020317AF60061FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = steemthinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.steemthinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/steemthink.app/steemthink";
+			};
+			name = Debug;
+		};
+		6291B10120317AF60061FDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = steemthinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.steemthinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/steemthink.app/steemthink";
+			};
+			name = Release;
+		};
+		6291B10320317AF60061FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = steemthinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.steemthinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = steemthink;
+			};
+			name = Debug;
+		};
+		6291B10420317AF60061FDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = steemthinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.steemthinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = steemthink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6291B0CB20317AF60061FDF8 /* Build configuration list for PBXProject "steemthink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291B0FA20317AF60061FDF8 /* Debug */,
+				6291B0FB20317AF60061FDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6291B0FC20317AF60061FDF8 /* Build configuration list for PBXNativeTarget "steemthink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291B0FD20317AF60061FDF8 /* Debug */,
+				6291B0FE20317AF60061FDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6291B0FF20317AF60061FDF8 /* Build configuration list for PBXNativeTarget "steemthinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291B10020317AF60061FDF8 /* Debug */,
+				6291B10120317AF60061FDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6291B10220317AF60061FDF8 /* Build configuration list for PBXNativeTarget "steemthinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291B10320317AF60061FDF8 /* Debug */,
+				6291B10420317AF60061FDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6291B0C820317AF60061FDF8 /* Project object */;
+}
