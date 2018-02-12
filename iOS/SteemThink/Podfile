@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+
+
+target "SteemThink" do
+
+pod 'AFNetworking'
+
+end

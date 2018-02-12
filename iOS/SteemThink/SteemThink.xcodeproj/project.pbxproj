@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6291B11220318B500061FDF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291B11120318B500061FDF8 /* AppDelegate.swift */; };
+		6291B11420318B500061FDF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291B11320318B500061FDF8 /* ViewController.swift */; };
+		6291B11720318B500061FDF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6291B11520318B500061FDF8 /* Main.storyboard */; };
+		6291B11920318B500061FDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6291B11820318B500061FDF8 /* Assets.xcassets */; };
+		6291B11C20318B500061FDF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6291B11A20318B500061FDF8 /* LaunchScreen.storyboard */; };
+		6291B12720318B500061FDF8 /* SteemThinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291B12620318B500061FDF8 /* SteemThinkTests.swift */; };
+		6291B13220318B500061FDF8 /* SteemThinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291B13120318B500061FDF8 /* SteemThinkUITests.swift */; };
+		B2F3EDA7A007741B8A28D2E2 /* libPods-SteemThink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130A1450D31D50BDC34493DE /* libPods-SteemThink.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6291B12320318B500061FDF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6291B10620318B500061FDF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6291B10D20318B500061FDF8;
+			remoteInfo = SteemThink;
+		};
+		6291B12E20318B500061FDF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6291B10620318B500061FDF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6291B10D20318B500061FDF8;
+			remoteInfo = SteemThink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130A1450D31D50BDC34493DE /* libPods-SteemThink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SteemThink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499955D39EB1E9325DD573C3 /* Pods-SteemThink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteemThink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SteemThink/Pods-SteemThink.debug.xcconfig"; sourceTree = "<group>"; };
+		6291B10E20318B500061FDF8 /* SteemThink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteemThink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6291B11120318B500061FDF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6291B11320318B500061FDF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6291B11620318B500061FDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6291B11820318B500061FDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6291B11B20318B500061FDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6291B11D20318B500061FDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6291B12220318B500061FDF8 /* SteemThinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteemThinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6291B12620318B500061FDF8 /* SteemThinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteemThinkTests.swift; sourceTree = "<group>"; };
+		6291B12820318B500061FDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6291B12D20318B500061FDF8 /* SteemThinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteemThinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6291B13120318B500061FDF8 /* SteemThinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteemThinkUITests.swift; sourceTree = "<group>"; };
+		6291B13320318B500061FDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6453E19EA387A31CD30BC49 /* Pods-SteemThink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteemThink.release.xcconfig"; path = "Pods/Target Support Files/Pods-SteemThink/Pods-SteemThink.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6291B10B20318B500061FDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F3EDA7A007741B8A28D2E2 /* libPods-SteemThink.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B11F20318B500061FDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B12A20318B500061FDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D9455DD7DBDAE44B1C0013 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				499955D39EB1E9325DD573C3 /* Pods-SteemThink.debug.xcconfig */,
+				B6453E19EA387A31CD30BC49 /* Pods-SteemThink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6291B10520318B500061FDF8 = {
+			isa = PBXGroup;
+			children = (
+				6291B11020318B500061FDF8 /* SteemThink */,
+				6291B12520318B500061FDF8 /* SteemThinkTests */,
+				6291B13020318B500061FDF8 /* SteemThinkUITests */,
+				6291B10F20318B500061FDF8 /* Products */,
+				24D9455DD7DBDAE44B1C0013 /* Pods */,
+				747E500180170A5ACE2E386F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6291B10F20318B500061FDF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6291B10E20318B500061FDF8 /* SteemThink.app */,
+				6291B12220318B500061FDF8 /* SteemThinkTests.xctest */,
+				6291B12D20318B500061FDF8 /* SteemThinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6291B11020318B500061FDF8 /* SteemThink */ = {
+			isa = PBXGroup;
+			children = (
+				6291B11120318B500061FDF8 /* AppDelegate.swift */,
+				6291B11320318B500061FDF8 /* ViewController.swift */,
+				6291B11520318B500061FDF8 /* Main.storyboard */,
+				6291B11820318B500061FDF8 /* Assets.xcassets */,
+				6291B11A20318B500061FDF8 /* LaunchScreen.storyboard */,
+				6291B11D20318B500061FDF8 /* Info.plist */,
+			);
+			path = SteemThink;
+			sourceTree = "<group>";
+		};
+		6291B12520318B500061FDF8 /* SteemThinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				6291B12620318B500061FDF8 /* SteemThinkTests.swift */,
+				6291B12820318B500061FDF8 /* Info.plist */,
+			);
+			path = SteemThinkTests;
+			sourceTree = "<group>";
+		};
+		6291B13020318B500061FDF8 /* SteemThinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6291B13120318B500061FDF8 /* SteemThinkUITests.swift */,
+				6291B13320318B500061FDF8 /* Info.plist */,
+			);
+			path = SteemThinkUITests;
+			sourceTree = "<group>";
+		};
+		747E500180170A5ACE2E386F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				130A1450D31D50BDC34493DE /* libPods-SteemThink.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6291B10D20318B500061FDF8 /* SteemThink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6291B13620318B500061FDF8 /* Build configuration list for PBXNativeTarget "SteemThink" */;
+			buildPhases = (
+				87CE580A1167D046638B0EA6 /* [CP] Check Pods Manifest.lock */,
+				6291B10A20318B500061FDF8 /* Sources */,
+				6291B10B20318B500061FDF8 /* Frameworks */,
+				6291B10C20318B500061FDF8 /* Resources */,
+				64C825E658DE81B352244121 /* [CP] Embed Pods Frameworks */,
+				DAFB99272362FD1613D4CDE1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteemThink;
+			productName = SteemThink;
+			productReference = 6291B10E20318B500061FDF8 /* SteemThink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6291B12120318B500061FDF8 /* SteemThinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6291B13920318B500061FDF8 /* Build configuration list for PBXNativeTarget "SteemThinkTests" */;
+			buildPhases = (
+				6291B11E20318B500061FDF8 /* Sources */,
+				6291B11F20318B500061FDF8 /* Frameworks */,
+				6291B12020318B500061FDF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6291B12420318B500061FDF8 /* PBXTargetDependency */,
+			);
+			name = SteemThinkTests;
+			productName = SteemThinkTests;
+			productReference = 6291B12220318B500061FDF8 /* SteemThinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6291B12C20318B500061FDF8 /* SteemThinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6291B13C20318B500061FDF8 /* Build configuration list for PBXNativeTarget "SteemThinkUITests" */;
+			buildPhases = (
+				6291B12920318B500061FDF8 /* Sources */,
+				6291B12A20318B500061FDF8 /* Frameworks */,
+				6291B12B20318B500061FDF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6291B12F20318B500061FDF8 /* PBXTargetDependency */,
+			);
+			name = SteemThinkUITests;
+			productName = SteemThinkUITests;
+			productReference = 6291B12D20318B500061FDF8 /* SteemThinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6291B10620318B500061FDF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zijinph;
+				TargetAttributes = {
+					6291B10D20318B500061FDF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6291B12120318B500061FDF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6291B10D20318B500061FDF8;
+					};
+					6291B12C20318B500061FDF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6291B10D20318B500061FDF8;
+					};
+				};
+			};
+			buildConfigurationList = 6291B10920318B500061FDF8 /* Build configuration list for PBXProject "SteemThink" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6291B10520318B500061FDF8;
+			productRefGroup = 6291B10F20318B500061FDF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6291B10D20318B500061FDF8 /* SteemThink */,
+				6291B12120318B500061FDF8 /* SteemThinkTests */,
+				6291B12C20318B500061FDF8 /* SteemThinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6291B10C20318B500061FDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291B11C20318B500061FDF8 /* LaunchScreen.storyboard in Resources */,
+				6291B11920318B500061FDF8 /* Assets.xcassets in Resources */,
+				6291B11720318B500061FDF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B12020318B500061FDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B12B20318B500061FDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64C825E658DE81B352244121 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SteemThink/Pods-SteemThink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87CE580A1167D046638B0EA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SteemThink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAFB99272362FD1613D4CDE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SteemThink/Pods-SteemThink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6291B10A20318B500061FDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291B11420318B500061FDF8 /* ViewController.swift in Sources */,
+				6291B11220318B500061FDF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B11E20318B500061FDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291B12720318B500061FDF8 /* SteemThinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291B12920318B500061FDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291B13220318B500061FDF8 /* SteemThinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6291B12420318B500061FDF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6291B10D20318B500061FDF8 /* SteemThink */;
+			targetProxy = 6291B12320318B500061FDF8 /* PBXContainerItemProxy */;
+		};
+		6291B12F20318B500061FDF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6291B10D20318B500061FDF8 /* SteemThink */;
+			targetProxy = 6291B12E20318B500061FDF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6291B11520318B500061FDF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6291B11620318B500061FDF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6291B11A20318B500061FDF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6291B11B20318B500061FDF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6291B13420318B500061FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6291B13520318B500061FDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6291B13720318B500061FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499955D39EB1E9325DD573C3 /* Pods-SteemThink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = SteemThink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.SteemThink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6291B13820318B500061FDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6453E19EA387A31CD30BC49 /* Pods-SteemThink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = SteemThink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.SteemThink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6291B13A20318B500061FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = SteemThinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.SteemThinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SteemThink.app/SteemThink";
+			};
+			name = Debug;
+		};
+		6291B13B20318B500061FDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = SteemThinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.SteemThinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SteemThink.app/SteemThink";
+			};
+			name = Release;
+		};
+		6291B13D20318B500061FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = SteemThinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.SteemThinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SteemThink;
+			};
+			name = Debug;
+		};
+		6291B13E20318B500061FDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTH2WAG5SM;
+				INFOPLIST_FILE = SteemThinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zijinph.SteemThinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SteemThink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6291B10920318B500061FDF8 /* Build configuration list for PBXProject "SteemThink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291B13420318B500061FDF8 /* Debug */,
+				6291B13520318B500061FDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6291B13620318B500061FDF8 /* Build configuration list for PBXNativeTarget "SteemThink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291B13720318B500061FDF8 /* Debug */,
+				6291B13820318B500061FDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6291B13920318B500061FDF8 /* Build configuration list for PBXNativeTarget "SteemThinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291B13A20318B500061FDF8 /* Debug */,
+				6291B13B20318B500061FDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6291B13C20318B500061FDF8 /* Build configuration list for PBXNativeTarget "SteemThinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291B13D20318B500061FDF8 /* Debug */,
+				6291B13E20318B500061FDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6291B10620318B500061FDF8 /* Project object */;
+}
