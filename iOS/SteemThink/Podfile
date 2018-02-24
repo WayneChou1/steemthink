@@ -4,5 +4,10 @@ platform :ios, '8.0'
 target "SteemThink" do
 
 pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'Alamofire'
+pod 'MBProgressHUD'
+
+use_frameworks!
 
 end
