@@ -20,6 +20,6 @@ class STBaseTableViewCell: UITableViewCell {
     }
 
     static public func cellIdentifier() -> String{
-        return NSStringFromClass(self.classForCoder())
+        return String(describing: type(of:STBaseTableViewCell()))
     }
 }

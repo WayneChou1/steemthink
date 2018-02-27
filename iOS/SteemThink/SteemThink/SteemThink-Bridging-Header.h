@@ -6,3 +6,7 @@
 #import <AFNetworking/AFHTTPSessionManager.h>
 #import <AFNetworking/AFURLSessionManager.h>
 #import <MBProgressHUD/MBProgressHUD.h>
+#import <MJRefresh/MJRefresh.h>
+#import "MJDIYAutoFooter.h"
+#import "MJDIYHeader.h"
+#import <WMPageController/WMPageController.h>

@@ -62,6 +62,31 @@ class STAFNetworkTools: AFHTTPSessionManager {
         }
     }
     
+    func requestBack(method: AFRequestMethod = .GET, urlString: String, parameters: AnyObject?, finished:@escaping AFNRequestCallBack) -> URLSessionDataTask{
+        
+        print("urlString ============  " + urlString)
+        print("parameters ============  " + String(describing: parameters))
+        
+        // dataTaskWithHttp 是写在 .m 文件里面的
+        // 对应在 Swift 中的，就是 private 修饰的方法
+        
+        // 定义请求成功的闭包
+        let success = { (dataTask: URLSessionDataTask, responseObject: Any?) -> Void in
+            finished(responseObject, nil)
+        }
+        
+        // 定义请求失败的闭包
+        let failure = { (dataTask: URLSessionDataTask?, error: Error) -> Void in
+            finished(nil, error)
+        }
+        
+        if method == .GET {
+            return get(urlString,parameters:parameters,progress:nil,success:success,failure:failure)!
+        }else{
+            return post(urlString, parameters: parameters, progress: nil, success:success, failure: failure)!
+        }
+    }
+    
     
     /// 发送请求(上传文件)
     

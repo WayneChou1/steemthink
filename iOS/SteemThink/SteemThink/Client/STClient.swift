@@ -14,6 +14,16 @@ let appId:String = ""
 //GET /get_discussions_by_trending
 let discussions_by_trending = "https://api.steemjs.com/get_discussions_by_trending?"
 
+//GET /get_discussions_by_created
+let discussions_by_created = "https://api.steemjs.com/get_discussions_by_created?"
+
+//GET /get_discussions_by_hot
+let discussions_by_hot = "https://api.steemjs.com/get_discussions_by_hot?"
+
+//GET /get_accounts
+let get_accounts = "https://api.steemjs.com/get_accounts?"
+
+
 
 class STClient: NSObject {
     
