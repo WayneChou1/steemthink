@@ -26,3 +26,10 @@
 "Pull-Down" = "下拉刷新";
 "Release" = "松开刷新";
 "No More Data" = "没有更多数据";
+
+// MARK: - 用户
+"My Question" = "我的问题";
+"My Answer" = "我的回答";
+"Replies To Me" = "回复";
+"Wallet" = "钱宝";
+"Logout" = "退出";

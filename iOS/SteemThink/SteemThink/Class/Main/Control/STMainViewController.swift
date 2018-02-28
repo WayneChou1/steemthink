@@ -98,9 +98,16 @@ class STMainViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:STMainTableViewCell = tableView.dequeueReusableCell(withIdentifier: STMainTableViewCell.cellIdentifier(), for: indexPath) as! STMainTableViewCell
-        cell.selectionStyle = UITableViewCellSelectionStyle.none
         cell.trending = self.dataSource[indexPath.row]
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let content = self.dataSource[indexPath.row]
+        let VC:STContentDetailViewController = UIStoryboard.init(name: "STBodyStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: String(describing: STContentDetailViewController.classForCoder())) as! STContentDetailViewController
+        self.navigationController?.pushViewController(VC, animated: true)
+        VC.content = content
     }
 }
 

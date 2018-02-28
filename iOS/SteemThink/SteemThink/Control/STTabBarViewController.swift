@@ -39,7 +39,7 @@ class STTabBarViewController: UITabBarController {
         searchNavItem.imageInsets = imageEdge
         searchNav.tabBarItem = searchNavItem
         
-        let userNav = STNavigationViewController.init(rootViewController: STUserViewController.init())
+        let userNav = STNavigationViewController.init(rootViewController: STUserViewController.initWithStortBorad(nibName: "STUserStoryboard"))
         let userNavItem = UITabBarItem.init(title: nil, image: UIImage.init(named: "tabbar_user_normal")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), selectedImage: UIImage.init(named: "tabbar_user_select")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal))
         userNavItem.imageInsets = imageEdge
         userNav.tabBarItem = userNavItem

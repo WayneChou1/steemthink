@@ -26,3 +26,10 @@
 "Pull-Down" = "Pull-Down";
 "Release" = "Release";
 "No More Data" = "No More Data";
+
+// MARK: - 用户
+"My Question" = "My Question";
+"My Answer" = "My Answer";
+"Replies To Me" = "Replies To Me";
+"Wallet" = "Wallet";
+"Logout" = "Logout";

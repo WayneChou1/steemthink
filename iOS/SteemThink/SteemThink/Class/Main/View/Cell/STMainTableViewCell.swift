@@ -24,31 +24,25 @@ class STMainTableViewCell: STBaseTableViewCell {
     var trending:STContent?{
         didSet{
             
-            // 姓名
+            // 姓名（Name）
             nameLab.text = trending?.author
             
-            // 日期
+            // 日期 (Date)
             let timeStr = trending?.last_update.replacingOccurrences(of: "T", with: " ")
             timeLab.text = NSDate_STExtension.getDateLong(fromDate: timeStr!)
             
-            // 标题
+            // 标题 (Title)
             titleLab.text = trending?.root_title
             
-            // 内容
+            // 内容 (Content)
             contentLab.text = trending?.body
             
-            // 头像 (通过authorName 获取个人信息列表)
-            // 因为是异步获取头像URl，所以在trending的set方法中每次都重置头像
-//            self.userIconImgV.image = UIImage.init(named: "user_icon_placeholder")
-//            self.getIconUrl(authorName: (trending?.author)!) { (iconUrl:String) in
-//                print("iconUrl ===========" + iconUrl)
-//                self.userIconImgV.sd_setImage(with: URL.init(string: iconUrl), placeholderImage: UIImage.init(named: "user_icon_placeholder"), completed: nil)
-//            }
+            // 头像 (通过authorName 获取个人信息列表)(UserIcon)
             let url = "https://steemitimages.com/u/"+(trending?.author)!+"/avatar"
             self.userIconImgV.sd_setImage(with: URL.init(string: url), placeholderImage: UIImage.init(named: "user_icon_placeholder"), completed: nil)
             
             let sbd = trending?.pending_payout_value.components(separatedBy: " ").first
-            functionView.dollarLab.text = "$" + " " + "\(String(describing: sbd!))"
+            functionView.dollarLab.text = " " + "\(String(describing: sbd!))"
             functionView.voteLab.text = String(format: "%d",(trending?.active_votes_arr?.count)!)
             functionView.commentLab.text = String(format: "%d",(trending?.children)!)
         }
